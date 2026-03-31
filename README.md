@@ -6,6 +6,11 @@ Sistema básico para cadastro de usuários e simulação de compra de vinhos, de
 ---
 
 ## 👥 Integrantes
+
 - Felipe Rossano Pedrol
+- Leonardo Ferreira Barbosa
+-
+-
+
 
 
