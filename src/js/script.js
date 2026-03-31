@@ -6,13 +6,15 @@ function initsys() {
 
     alert(`Olá, ${name}!`);
 
-
+     // nao irei passar a variavel password no console.log para evitar um suposto vazamento de dados  
+    
     let idade = prompt('Digite sua idade para o Cadastro:');
     let mail = prompt('Digite seu Email para o Cadastro:');
     let password = prompt('Digite sua senha para o Cadastro:');
 
     alert('Cadastro realizado! Veja os detalhes no console.');
 
+    nao estou passando a variavi
     console.log(`Nome: ${name}  \n Idade: ${idade}  \n Email: ${mail}  \n Senha: XXXXXX`);
 
     alert('A seguir, veja os detalhes do vinho no console.');
