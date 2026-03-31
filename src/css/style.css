@@ -19,6 +19,7 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
+/* logo */
 
 .logo {
     display: flex;
@@ -34,6 +35,35 @@ header {
 .logo .texto {
     font-size: 16px;
 }
+
+/* card */
+
+.card {
+    background: white;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 420px;
+
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+/* Rodape */
 
 footer {
     text-align: center;
