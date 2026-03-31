@@ -9,8 +9,17 @@ Sistema básico para cadastro de usuários e simulação de compra de vinhos, de
 
 - Felipe Rossano Pedrol
 - Leonardo Ferreira Barbosa
+- Daniel Roberto Ribeiro
 -
--
+
+---
+
+## 🌐 GitHub Pages
+
+Acesse o projeto online:  
+👉 https://github.com/fishpedrol/project-facul.git
+
+---
 
 
 
