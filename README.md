@@ -17,7 +17,7 @@ Sistema básico para cadastro de usuários e simulação de compra de vinhos, de
 ## 🌐 GitHub Pages
 
 Acesse o projeto online:  
-👉 https://github.com/fishpedrol/project-facul.git
+👉 [https://github.com/fishpedrol/project-facul.git](https://fishpedrol.github.io/vinharia-agnello/)
 
 ---
 
