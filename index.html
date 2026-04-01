@@ -3,36 +3,65 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Vinícola muito foda 2.0</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinheria Agnello</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
   <header>
-    <div class="logo">
+    <div class="header-title">
       <span class="icone">🍇</span>
-      <span class="texto">Vinícola muito foda 2.0</span>
+      <span id="header-label">Vinheria Agnello</span>
     </div>
+    <button onclick="switchpage()" id="btn-nav" class="btn-voltar">Sobre</button>
   </header>
 
-    <main>
-    <div class="card">
-      <h1>DESCUBRA O MUNDO DO VINHO EXCLUSIVO</h1>
-      <p>
-        Cadastre-se para ter acesso ao nosso catalogo..
-      </p>
-      <p><strong>Abra o Console para ver os detalhes!</strong></p>
-      <button onclick="initsys()" class="main">
-        Iniciar Cadastro
-      </button>
+  <main id="division-index" class="division active">
+    <div class="index-card">
+      <div class="index-texto">
+        <h1>Descubra o Mundo do Vinho Exclusivo</h1>
+        <p>Cadastre-se para ter acesso ao nosso catálogo com curadoria especial de vinhos nacionais e importados.</p>
+        <p><strong>Abra o Console para ver os detalhes!</strong></p>
+        <button onclick="initsys()" class="btn-cadastro">Iniciar Cadastro</button>
+      </div>
+      <div class="index-imagem"></div>
     </div>
   </main>
-  
+
+  <main id="division-sobre" class="division">
+    <div class="sobre-card">
+      <div class="sobre-texto">
+        <h1>Sobre</h1>
+        <p>
+          A Vinheria Agnello é uma empresa familiar de São Paulo, com mais de 15 anos de atuação no mercado de vinhos
+          nacionais e importados. Conhecida pelo atendimento especializado, a vinheria se destaca pela orientação
+          personalizada oferecida por seus vendedores, que auxiliam os clientes na escolha de vinhos e harmonizações
+          para diferentes ocasiões.
+        </p>
+        <p>
+          Durante a pandemia, a empresa enfrentou uma queda no movimento devido às restrições e à migração dos
+          consumidores para o ambiente online. Apesar da resistência inicial do proprietário, Giulio, ao e-commerce, a
+          necessidade de adaptação levou à decisão de expandir o negócio para o digital, com o apoio de sua filha
+          Bianca.
+        </p>
+        <p>
+          Mesmo com a nova fase, a Vinheria Agnello mantém seu compromisso com a qualidade, incluindo cuidados rigorosos
+          no armazenamento dos vinhos, e busca levar para o ambiente virtual a mesma experiência acolhedora e consultiva
+          que sempre ofereceu em sua loja física.
+        </p>
+      </div>
+      <div class="sobre-imagem"></div>
+    </div>
+  </main>
+
   <footer>
-    © Vinícola muito foda 2.0 - Todos os direitos reservados.
+    © Vinheria Agnello - Todos os direitos reservados.
   </footer>
 
-    <script src="src/js/script.js"></script>
+  <script src="src/js/script.js"></script>
 </body>
 
 </html>
