@@ -19,6 +19,31 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
+/* main settings */
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin-top: 20px;
+    padding: 14px;
+    width: 100%;
+    border: 2px solid black;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.main:hover {
+    background: black;
+    color: white;
+}
+
 /* logo */
 
 .logo {
@@ -35,6 +60,7 @@ header {
 .logo .texto {
     font-size: 16px;
 }
+
 
 /* card */
 
