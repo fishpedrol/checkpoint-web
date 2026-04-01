@@ -2,27 +2,6 @@
 
 let paginaAtual = 'index';
 
-function switchpage() {
-    const divisionIndex = document.getElementById('division-index');
-    const divisionSobre = document.getElementById('division-sobre');
-    const btnNav = document.getElementById('btn-nav');
-    const headerLabel = document.getElementById('header-label');
-
-    if (paginaAtual === 'index') {
-        divisionIndex.classList.remove('ativa');
-        divisionSobre.classList.add('ativa');
-        btnNav.textContent = 'Página Inicial';
-        headerLabel.textContent = 'Sobre - Vinheria Agnello';
-        paginaAtual = 'sobre';
-    } else {
-        divisionSobre.classList.remove('ativa');
-        divisionIndex.classList.add('ativa');
-        btnNav.textContent = 'Sobre';
-        headerLabel.textContent = 'Vinheria Agnello';
-        paginaAtual = 'index';
-    }
-}
-
 function initsys() {
 
     // ===== cadastro =====

@@ -11,6 +11,7 @@ Sistema básico para cadastro de usuários e simulação de compra de vinhos, de
 - Leonardo Ferreira Barbosa
 - Daniel Roberto Ribeiro
 - Gustavo Ducatti Bugelli
+- Jecky Cossio Zhu
 
 ---
 
@@ -26,7 +27,3 @@ Acesse o projeto online:
 - HTML5
 - CSS3
 - JavaScript
-
-
-
-
