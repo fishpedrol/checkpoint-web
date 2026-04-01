@@ -14,7 +14,6 @@ function initsys() {
 
     alert('Cadastro realizado! Veja os detalhes no console.');
 
-    nao estou passando a variavi
     console.log(`Nome: ${name}  \n Idade: ${idade}  \n Email: ${mail}  \n Senha: XXXXXX`);
 
     alert('A seguir, veja os detalhes do vinho no console.');
