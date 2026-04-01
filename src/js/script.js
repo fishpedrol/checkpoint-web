@@ -55,15 +55,15 @@ function initsys() {
     console.log("🍷 ===== VINHOS DISPONÍVEIS ===== 🍷\n");
 
     console.log("🍇 Nome: Cantinho do Vale");
-    console.log("Tipo: Tinto | Safra: 2015 | Estoque: 10");
+    console.log("Tipo: Tinto, Branco | Safra: 2015 | Estoque: 10");
     console.log("----------------------------------");
 
     console.log("🍇 Nome: Salton");
-    console.log("Tipo: Branco | Safra: 2012 | Estoque: 20");
+    console.log("Tipo: Branco, Tinto | Safra: 2012 | Estoque: 20");
     console.log("----------------------------------");
 
     console.log("🍇 Nome: Dom Nogueira");
-    console.log("Tipo: Rosé | Safra: 2000 | Estoque: 30");
+    console.log("Tipo: Rosé, Tinto | Safra: 2000 | Estoque: 30");
 
     // ===== escolha =====
 
